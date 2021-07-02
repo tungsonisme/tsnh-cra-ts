@@ -3,9 +3,7 @@ import * as path from "path"
 
 export const CURR_DIR = process.cwd()
 
-export const TEMPLATE_PATH = path.join(CURR_DIR, "templates")
-
-const CHOICES = fs.readdirSync(TEMPLATE_PATH)
+const CHOICES = fs.readdirSync(path.join(__dirname, "templates"))
 
 export const QUESTIONS = [
   {
