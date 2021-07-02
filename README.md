@@ -1,4 +1,4 @@
-#TSNH Project Generator
+# TSNH Project Generator
 
 Generate your project in a blink of an eye
 
@@ -9,6 +9,9 @@ Should have node version >= 14.0.0
 
 ### Quick Start
 `tsnh-pg`
+
+### Current supported template
+- [Create React App Typescript](https://github.com/tungsonisme/tsnh-project-generator/tree/1.0.2/src/templates/cra-ts)
 
 ### Maintainer: 
 tungsonisme (tson.regis@gmail.com)
