@@ -37,7 +37,12 @@ export function createDirectoryContents(
     if (stats.isFile()) {
       // read file content and transform it using template engine
       let contents = fs.readFileSync(origFilePath, "utf8")
-      contents = ejs.render(contents, { projectName })
+      const appName = projectName
+        .split("/")[0]
+        .split("-")
+        .map((i) => i.toUpperCase())
+        .join(" ")
+      contents = ejs.render(contents, { projectName, appName })
 
       // write file to destination folder
       const writePath = path.join(CURR_DIR, projectName, file)

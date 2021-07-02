@@ -11,7 +11,8 @@ Should have node version >= 14.0.0
 `tsnh-pg`
 
 ### Current supported template
-- [Create React App Typescript](https://github.com/tungsonisme/tsnh-project-generator/tree/1.0.2/src/templates/cra-ts)
+- [Create React App Typescript](https://github.com/tungsonisme/tsnh-project-generator/templates/cra-ts)
+- [Create React Admin App Typescript](https://github.com/tungsonisme/tsnh-project-generator/templates/cra-ts-admin)
 
 ### Maintainer: 
 tungsonisme (tson.regis@gmail.com)
