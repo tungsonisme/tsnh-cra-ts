@@ -35,9 +35,9 @@ inquirer.prompt(constants_1.QUESTIONS).then((answers) => {
         templatePath,
         targetPath,
     };
-    if (!helpers_1.createProject(targetPath)) {
+    if (!(0, helpers_1.createProject)(targetPath)) {
         return;
     }
-    helpers_1.createDirectoryContents(templatePath, projectName);
+    (0, helpers_1.createDirectoryContents)(templatePath, projectName);
 });
 //# sourceMappingURL=index.js.map
